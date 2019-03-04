@@ -18,18 +18,11 @@ function driversByRevenue(drivers) {
 }
 
 function driversByName(drivers) {
-  return logDriversNames(drivers).sort();
-// returns a new array of driver objects sorted by their name 
-// attribute from A to Z. Here, you may have to use the String.prototype.localeCompare() method.
+  return logDriversNames(drivers).sort();}
+
+function totalRevenue(drivers) {
 }
 
-function totalRevenue() {
-  // Receives an array of driver objects and 
-// returns the sum of the revenue earned by each driver.
-}
-
-function averageRevenue() { 
-  // Receives an array of driver objects and 
-// returns the average revenue earned by each driver
+function averageRevenue(drivers) { 
 }
 
