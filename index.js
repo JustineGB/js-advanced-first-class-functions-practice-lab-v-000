@@ -15,10 +15,7 @@ function driversByRevenue(drivers) {
     return a.revenue - b.revenue;
   });
 }
-  // Receives an array of driver objects 
-// and returns a new array of driver objects sorted 
-// by their revenue attribute from lowest to highest.
-}
+
 
 function driversByName() {
   // Receives an array of driver objects and 
