@@ -10,8 +10,8 @@ function logDriversByHometown(drivers, hometown) {
   })
 }
 
-function driversByRevenue(drivers) {
-  newArray = drivers
+const driversByRevenue = function(drivers) {
+  // newArray = drivers
   return newArray.sort(function(a, b) {
     return a.revenue - b.revenue;
   });
