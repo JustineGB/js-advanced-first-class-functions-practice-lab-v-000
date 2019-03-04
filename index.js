@@ -1,8 +1,6 @@
 function logDriverNames(drivers) {
-  return function(){
-    for (c)
-  }
-  // console.log 
+  return drivers.forEach(function(element) {
+    console.log(element);}
 }
 
 
