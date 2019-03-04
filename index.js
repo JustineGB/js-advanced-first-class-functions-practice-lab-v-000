@@ -10,7 +10,10 @@ function logDriversByHometown(drivers, hometown) {
   })
 }
 
-function driversByRevenue() {
+function driversByRevenue(drivers) {
+  return drivers.sort(function(driver) {
+    
+  }
   // Receives an array of driver objects 
 // and returns a new array of driver objects sorted 
 // by their revenue attribute from lowest to highest.
