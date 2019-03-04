@@ -29,5 +29,5 @@ function totalRevenue(drivers) {
 function averageRevenue(drivers) { 
 }
 
-newArray.sort(function(a, b) { return a.name.localeCompare(a.name);});
+newArray.sort(function(a, b) { return a.name.localeCompare(b.name);});
 
