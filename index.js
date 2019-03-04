@@ -18,7 +18,9 @@ function driversByRevenue(drivers) {
 }
 
 function driversByName(drivers) {
-  return logDriversNames(drivers).sort();}
+  return logDriversNames(drivers).sort(function(a, b) {
+    return a.name.localeCompare(a.name)
+  };}
 
 function totalRevenue(drivers) {
 }
