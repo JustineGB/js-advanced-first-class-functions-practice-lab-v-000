@@ -3,16 +3,11 @@ function logDriverNames(drivers) {
     console.log(driver.name);})
 }
 
-function logDriverByHometown(drivers) {
+function logDriverByHometown(drivers, location) {
   return drivers.forEach(function(driver) {
-    console.log(driver.name);})
+    console.log(driver.location);})
 }
 
-
-
-// logDriverNames() — Receives an array of driver objects and logs the name attribute of each driver to the console.
-
-// logDriversByHometown() — Receives an array of driver objects as the first argument and a location as the second argument. The function logs to the console the name attribute of each driver whose hometown matches the string passed in as the 'location' argument.
 
 // driversByRevenue() — Receives an array of driver objects and returns a new array of driver objects sorted by their revenue attribute from lowest to highest.
 
