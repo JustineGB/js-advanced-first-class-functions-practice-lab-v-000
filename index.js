@@ -24,9 +24,9 @@ function driversByName(drivers) {
 }
 
 function totalRevenue(drivers) {
-  const reducer = 
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
   return drivers.reduce(function(total, driver) {
-    return driver.revenue + total}, 0);
+    return driver.revenue + total}, reducer);
 }
 
 function averageRevenue(drivers) { 
