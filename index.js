@@ -3,6 +3,12 @@ function logDriverNames(drivers) {
     console.log(driver.name);})
 }
 
+function logDriverByHometown(drivers) {
+  return drivers.forEach(function(driver) {
+    console.log(driver.name);})
+}
+
+
 
 // logDriverNames() — Receives an array of driver objects and logs the name attribute of each driver to the console.
 
