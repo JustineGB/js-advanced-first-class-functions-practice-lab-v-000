@@ -3,7 +3,7 @@ function logDriverNames(drivers) {
     console.log(driver.name);})
 }
 
-const logDriverByHometown(drivers, hometown) {
+function logDriverByHometown(drivers, hometown) {
   return drivers.forEach(function(driver) {
     if (driver.hometown == hometown) {
     console.log(driver.name)}
