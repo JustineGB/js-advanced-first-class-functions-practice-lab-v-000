@@ -21,4 +21,4 @@ function logDriverByHometown(drivers, location) {
 // returns the sum of the revenue earned by each driver.
 
 // averageRevenue() — Receives an array of driver objects and 
-returns the average revenue earned by each driver
+// returns the average revenue earned by each driver
